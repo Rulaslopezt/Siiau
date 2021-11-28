@@ -164,10 +164,4 @@ footer{
     .logo{
         margin: 0 auto;
     }
-    .formulario{
-        display: flex;
-        justify-content: center;
-        width: 30rem;
-        background-color: black;
-    }
 }
