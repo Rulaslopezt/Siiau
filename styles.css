@@ -168,8 +168,6 @@ footer{
         display: flex;
         justify-content: center;
         width: 30rem;
-    }
-    .label{
-        width: 5rem;
+        background-color: black;
     }
 }
