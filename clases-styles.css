@@ -79,6 +79,10 @@ nav{
     align-items: center;
     justify-content: space-around
 }
+nav a{
+    text-decoration: none;
+    color: black;
+}
 .titulos-principales{
     font-size: 1.6rem;
     font-weight: bold;
@@ -98,11 +102,21 @@ nav{
 }
 .clases{
     width: 22rem;
-    height: 10rem;
     background-color: var(--low-gray);
+    height: 10rem;
     margin: 1rem;
     padding: .8rem;
 }
+.clases span{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+/*.analisis-requerimientos{
+    background-image: url("https://quizizz.com/media/resource/gs/quizizz-media/questions/f71e4f1b-7e43-4d04-b562-22bded5f2759?w=90&h=90");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
 @media (max-width: 720px){
     nav{
         display: flex;
