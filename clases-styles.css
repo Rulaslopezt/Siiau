@@ -1,0 +1,112 @@
+:root{
+    --rojo: #990000;
+    --blue: #00004a;
+    --yellow: #ffcc00;
+    --light-blue: #003366;
+    --gray: #e5e5e5;
+    --low-blue: #cddbe9;
+    --low-gray: #f3f8fc;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.rojo{
+    background-color: var(--rojo);
+    height: .5rem;
+    width: 100%;
+}
+.header{
+    background-color: var(--blue);
+    display: flex;
+    height: 5.5rem;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    height: 5.5rem;
+    width: 5rem;
+    padding-top: .7rem;
+    padding-left: 2rem;
+    padding-bottom: .6rem;
+}
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+.encabezado{
+    width: 51rem;
+    height: 5.5rem;
+    padding-top: .8rem;
+    padding-bottom: .7rem;
+}
+.encabezado-img{
+    width: 100%;
+    height: 100%;
+}
+.logo-siiau{
+    width: 10rem;
+    height: 5.5rem;
+    padding: .6rem 0;
+}
+.logo-siiau-img{
+    width: 100%;
+    height: 100%;
+}
+.amarillo{
+    background-color: var(--yellow);
+    width: 100%;
+    height: 1.8rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100vw;
+    height: 4rem;
+    background-color: var(--low-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.titulos-principales{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.titulos-secundarios{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 7rem;
+    justify-content: space-around;
+}
+.clases{
+    width: 22rem;
+    height: 10rem;
+    background-color: var(--low-gray);
+    margin: 1rem;
+    padding: .8rem;
+}
+@media (max-width: 720px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        height: 6rem;
+    }
+}
