@@ -100,6 +100,21 @@ nav a{
     margin-top: 7rem;
     justify-content: space-around;
 }
+.clases-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin-top: 3rem;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.titles{
+    font-weight: bold;
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+}
 .clases{
     width: 22rem;
     background-color: var(--low-gray);
@@ -111,12 +126,74 @@ nav a{
     font-size: 2.8rem;
     font-weight: bold;
 }
-/*.analisis-requerimientos{
+.analisis-requerimientos:hover{
     background-image: url("https://quizizz.com/media/resource/gs/quizizz-media/questions/f71e4f1b-7e43-4d04-b562-22bded5f2759?w=90&h=90");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}*/
+}
+.daw:hover{
+    background-image: url("https://mrhouston.net/wp-content/uploads/2018/03/Aplicaciones-Web.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.instalacion:hover{
+    background-image: url("https://tecnologiandroid.com/wp-content/uploads/2021/03/Como-funciona-una-instalacion-de-software.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aritmetica:hover{
+    background-image: url("https://recursos.educared.fundaciontelefonica.com.pe/recursos/ciencia/118.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lectura:hover{
+    background-image: url("https://aptus.com.ar/wp-content/uploads/2020/02/Edu-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.algebra:hover{
+    background-image: url("https://cdn01.alison-static.net/courses/1816/alison_courseware_intro_1816.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clases:hover span{
+    display: none;
+}
+.alumnos{
+    width: 22rem;
+    background-color: var(--low-gray);
+    height: 11rem;
+    margin: 1rem;
+    padding: .8rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.alumnos-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin-top: 3rem;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.img-container{
+    width: 100%;
+    height: 6rem;
+}
+.img-container img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+    margin: .5rem;
+}
 @media (max-width: 720px){
     nav{
         display: flex;
