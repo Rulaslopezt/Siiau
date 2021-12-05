@@ -14,7 +14,7 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -85,7 +85,7 @@ nav a{
 }
 .titulos-principales{
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 .titulos-secundarios{
     font-size: 1.2rem;
@@ -109,6 +109,10 @@ nav a{
     justify-content: space-around;
     margin-bottom: 3rem;
 }
+.clases-section a{
+    text-decoration: none;
+    color: black;
+}
 .titles{
     font-weight: bold;
     font-size: 5rem;
@@ -118,9 +122,10 @@ nav a{
 .clases{
     width: 22rem;
     background-color: var(--low-gray);
-    height: 10rem;
+    height: 12rem;
     margin: 1rem;
     padding: .8rem;
+    border-radius: 1rem;
 }
 .clases span{
     font-size: 2.8rem;
@@ -174,6 +179,7 @@ nav a{
     font-weight: 500;
     font-size: 1.6rem;
     margin-top: 1rem;
+    border-radius: 1rem;
 }
 .alumnos-section{
     display: flex;
