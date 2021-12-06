@@ -5,6 +5,7 @@
     --light-blue: #003366;
     --gray: #e5e5e5;
     --low-blue: #cddbe9;
+    --low-gray: #f3f8fc;
 }
 *{
     box-sizing: border-box;
@@ -13,7 +14,7 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -66,12 +67,12 @@ html{
 }
 main{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    flex-direction: column;
 }
 nav{
-    width: 100%;
+    width: 100vw;
     height: 4rem;
     background-color: var(--low-blue);
     display: flex;
@@ -82,52 +83,83 @@ nav a{
     text-decoration: none;
     color: black;
 }
-.titulos-principales{
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-.titulos-secundarios{
-    font-size: 1.2rem;
-    font-weight: bold;
-}
 .main-section{
     display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
     margin-top: 7rem;
     justify-content: space-around;
+    flex-direction: column;
 }
-.bienvenida{
+.chat{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 60rem;
+    background-color: var(--low-blue);
+    border-radius: 2rem;
 }
-.texto-bienvenida{
+.persona{
     display: flex;
     width: 100%;
-    height: 10rem;
-    justify-content: center;
-    align-items: center;
+    height: 15rem;
+    background-color: var(--low-blue);
+    border-radius: 2rem;
 }
-.texto-bienvenida span{
+.contenedor-foto-persona{
+    width: 25rem;
+    height: 15rem;
+}
+.foto-persona{
+    width: 15rem;
+    height: 15rem;
+    margin: 0 5rem;
+}
+.nombre-persona{
+    display: flex;
+    align-items: flex-end;
+}
+.nombre-persona span{
     font-weight: 700;
-    font-size: 4.8rem;
+    font-size: 3.2rem;
 }
-.imagen-bienvenida{
+.mensajes{
+    width: 80%;
+    height: 34rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 3rem;
+}
+.contenedor-mensaje{
     display: flex;
-    width: 100%;
-    height: 50rem;
+    width: 80%;
+    height: 4rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+.enviar-mensaje{
+    width: 90%;
+    height: 4rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding-top: .4rem;
+    padding-left: 1rem;
+}
+.enviar-mensaje span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.logo-mensaje{
+    display: flex;
+    width: 10%;
+    height: 4rem;
+    background-color: white;
+    border-radius: 2rem;
     justify-content: center;
 }
-.imagen-bienvenida img{
-    width: 50%;
-    height: 50rem;
-}
-@media (max-width: 720px){
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-        height: 6rem;
-    }
+.logo-mensaje img{
+    width: 4rem;
+    height: 4rem;
 }
